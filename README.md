@@ -1,46 +1,48 @@
-# Oli Motor Management System
+# **Motor Oil Management System**
 
-Sistem manajemen toko oli motor ini dirancang untuk mengelola data oli motor, termasuk melihat daftar oli, menambahkan, menghapus, memperbarui, dan melakukan sorting berdasarkan stok atau harga. Program ini memiliki fitur-fitur yang memudahkan admin dalam mengelola data oli.
+This motorcycle oil shop management system is designed to manage motor oil data, including viewing the oil list, adding, deleting, updating, and sorting by stock or price. The program has features that make it easier for admins to manage oil data.
 
-## Fitur
+## **Features**
 
-### Submenu READ
-- **Menampilkan Semua Daftar Oli**: Menampilkan semua data oli yang tersedia dalam bentuk tabel.
-- **Mencari Oli Berdasarkan Unique ID**: Mencari oli berdasarkan kode unik yang dimasukkan oleh pengguna.
-- **Urutkan Stok Oli**: Mengurutkan daftar oli berdasarkan stok (dari terendah ke tertinggi atau sebaliknya).
-- **Urutkan Harga Oli**: Mengurutkan daftar oli berdasarkan harga (dari terendah ke tertinggi atau sebaliknya).
+### **READ Submenu**
+- **Display All Oil List**: Displays all available oil data in table format.
+- **Search Oil by Unique ID**: Searches for oil based on the unique code entered by the user.
+- **Sort Oil Stock**: Sorts the oil list by stock (from lowest to highest or vice versa).
+- **Sort Oil Price**: Sorts the oil list by price (from lowest to highest or vice versa).
 
-### Submenu CREATE
-- **Menambah Data Oli**: Menambahkan data oli baru ke dalam daftar. Pengguna diminta untuk memasukkan nama oli, stok, harga, dan kategori oli (Sport/Reguler).
+### **CREATE Submenu**
+- **Add Oil Data**: Adds new oil data to the list. Users are required to enter the oil name, stock, price, and oil category (Sport/Regular).
 
-### Submenu DELETE
-- **Menghapus Data Oli**: Menghapus data oli berdasarkan kode unik yang dimasukkan oleh pengguna.
+### **DELETE Submenu**
+- **Delete Oil Data**: Deletes oil data based on the unique code entered by the user.
 
-### Submenu UPDATE
-- **Mengubah Stok Oli**: Memperbarui stok oli berdasarkan kode unik yang dimasukkan oleh pengguna.
-- **Mengubah Harga Oli**: Memperbarui harga oli berdasarkan kode unik yang dimasukkan oleh pengguna.
+### **UPDATE Submenu**
+- **Update Oil Stock**: Updates oil stock based on the unique code entered by the user.
+- **Update Oil Price**: Updates oil price based on the unique code entered by the user.
 
-## Alur Program
+## **Program Flow**
 
-### Menu Utama
-1. **Menampilkan Daftar Oli**: Menampilkan semua data oli yang tersedia.
-2. **Menambah Data Oli**: Menambahkan data oli baru ke dalam daftar.
-3. **Menghapus Data Oli**: Menghapus data oli berdasarkan kode unik.
-4. **Update Data Oli**: Memperbarui stok atau harga oli.
-5. **Exit Program**: Keluar dari program.
+### **Main Menu**
+1. **Display Oil List**: Displays all available oil data.
+2. **Add Oil Data**: Adds new oil data to the list.
+3. **Delete Oil Data**: Deletes oil data based on a unique code.
+4. **Update Oil Data**: Updates oil stock or price.
+5. **Exit Program**: Exits the program.
 
-### Submenu
-- Setiap submenu memiliki opsi untuk kembali ke menu utama atau melanjutkan operasi lainnya.
-- Setiap perubahan (tambah, hapus, update) memerlukan konfirmasi dari pengguna.
+### **Submenu**
+- Each submenu has an option to return to the main menu or continue with other operations.
+- Every change (add, delete, update) requires user confirmation.
 
-## Teknologi & Library
+## **Technology & Library**
 
-- **Python**: Bahasa pemrograman yang digunakan.
-- **PrettyTable**: Library untuk menampilkan data dalam bentuk tabel.
+- **Python**: Programming language used.
+- **PrettyTable**: Library for displaying data in table format.
 
-## Cara Menjalankan
+## **How to Run**
 
-1. Pastikan Python sudah terinstal di sistem Anda.
-2. Install library `PrettyTable` jika belum terinstal dengan perintah:
+1. Ensure Python is installed on your system.
+2. Install the `PrettyTable` library if not already installed using the command:
    ```bash
    pip install prettytable
+   ```
+
